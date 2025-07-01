@@ -1,0 +1,54 @@
+x=10
+if(x>5):
+    print("x is greater than 5")
+elif(x==5):
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+
+
+    # inputFucntion
+
+name=input("Enter a name")
+line1="*************************************"
+line2="******Hello"+name+"******"
+print(line1)
+print(line2)
+print(line1)
+
+
+
+    #TypeCasting
+
+
+
+x=input("enter a number")
+if(type(x)==str):
+    num=int(x)
+    print(num+10)
+
+
+    num=float(x)
+    print(type(num))
+    print(num+10)
+
+
+
+
+        #NestedIf
+
+
+x=20
+if(x>5):
+    if(x>7):
+        print("x is greater than 7")
+        if(x>10):
+            print("x is greater than 10")
+        elif(x==10):
+            print("x is equal to 10")
+        else:
+            print("x is less than 10")
+    else:
+        print("x is less than 7")
+else:
+    print("x is less than 5")

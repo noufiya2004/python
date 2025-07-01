@@ -1,0 +1,13 @@
+name=input("Enter a name:")
+address=input("Enter ur address:")
+std=input("Enter ur class:")
+blood=input("Enter ur blood group:")
+phone=input("enter ur phone number:")
+ 
+print("_________________________________________________")
+print("         Name           :        "+name)
+print("         Standard       :        "+std)
+print("         Address        :        "+address)
+print("         Blood group    :        "+blood)
+print("         Phone          :        "+phone)
+print("__________________________________________________")
